@@ -1,0 +1,26 @@
+{
+  "name": "connect-requires-json",
+  "version": "1.0.0",
+  "description": "Error middleware for empty and non-JSON request bodies",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && tap test.js --coverage"
+  },
+  "keywords": [
+    "connect",
+    "express",
+    "json",
+    "middleware"
+  ],
+  "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http-errors": "^1.5.0",
+    "lodash.isempty": "^4.2.1"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "tap": "^6.2.0"
+  }
+}
