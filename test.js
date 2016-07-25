@@ -1,14 +1,6 @@
 var tap = require('tap')
 var nonEmptyBody = require('./index')
 
-tap.test('should throw 400 on empty body', function (t) {
-  t.plan(1)
-
-  nonEmptyBody({ body: {} }, null, function next (err) {
-    t.equal(err.status, 400)
-  })
-})
-
 tap.test('should throw 415 on not-JSON', function (t) {
   t.plan(1)
 

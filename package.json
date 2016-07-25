@@ -16,8 +16,7 @@
   "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "http-errors": "^1.5.0",
-    "lodash.isempty": "^4.2.1"
+    "http-errors": "^1.5.0"
   },
   "devDependencies": {
     "standard": "^7.1.2",
