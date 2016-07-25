@@ -1,6 +1,6 @@
 {
   "name": "connect-requires-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Error middleware for empty and non-JSON request bodies",
   "main": "index.js",
   "scripts": {
